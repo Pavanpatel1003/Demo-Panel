@@ -1,0 +1,497 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #141627 !important;
+    min-height: 100vh;
+    font-family: Roboto;
+    color: aliceblue !important;
+}
+
+.side-bg {
+    background-image: url(./images/sidebar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backimage {
+    width: 100%;
+    height: auto;
+    background-image: url(./images/map_img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+
+}
+
+/* .section {
+    background-color: green;
+} */
+
+.section3 {
+    background-color: blue;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 5px;
+    border: none
+}
+
+.welcome {
+    color: #646784;
+    font-size: 39px;
+}
+
+.john {
+    color: #FFFFFF;
+    font-size: 39px;
+}
+
+.text1 {
+    top: 286px;
+    left: 292px;
+    width: 355px;
+    height: 96px;
+}
+
+.nav-btn {
+    /* width: 133px; */
+    height: 40px;
+    background: transparent linear-gradient(90deg, #706EEC 0%, #B15BFE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    border: none;
+    width: auto;
+    padding: 0px 14px;
+    height: 40px;
+}
+
+
+.header-btn {
+    text-align: left;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.p-text {
+    font-family: Roboto;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.date-text {
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #646784;
+}
+
+.server-time {
+    padding: 0px;
+    margin: 0px;
+    line-height: 19px;
+}
+
+.notification {
+    width: 26px;
+    height: 28px;
+}
+
+.flag {
+    width: 40px;
+    height: 33px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.arrow {
+    width: 40px;
+    height: 33px;
+    background: #212761 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.flag-box {
+    border-radius: 8px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.user-arrow {
+    width: 40px;
+    height: 42px;
+}
+
+.user-img-arrow {
+    width: 10px;
+    height: 6px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.coin-name {
+    opacity: 0.7;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.width-fit-content {
+    width: fit-content !important;
+}
+
+.line {
+
+    background: #dbcfcfb0;
+    width: 2px;
+    height: calc(100% + 15px);
+    position: relative;
+    top: -34px;
+    margin-left: 100%;
+}
+
+.demopanel {
+    width: 145px;
+    height: 43px;
+}
+
+.dashboard {
+    background: #463481 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    width: 191px;
+    height: 56px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fa {
+    color: #4C4D69;
+    font-size: 30px !important;
+}
+
+.w-18 {
+    width: 24px;
+}
+
+.nav-items {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #9FA8C7;
+
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    box-shadow: -10px 0px 0px 0px #463481, 0px 0px 0px 0px #463481;
+    height: 56px;
+    background: #463481 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.active .fa,
+.active .nav-items {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.active-state {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #D95A98 0% 0% no-repeat padding-box;
+    position: relative;
+    right: -38px;
+}
+
+.menu-item {
+    margin-left: 40px;
+    color: #9FA8C7;
+}
+
+.cheat-support {
+    color: #9FA8C7;
+}
+
+h3 {
+    font-size: 39px;
+}
+
+.card {
+    background-color: #1c1f37 !important;
+    /* max-width: 680px; */
+}
+
+.robot-img {
+    position: relative;
+    left: 55px;
+    left: 17%;
+    max-width: 100%;
+}
+
+.card-text {
+    text-align: left;
+    /* font: normal normal medium 20px/29px Roboto; */
+    font-size: 20px;
+    letter-spacing: 0px;
+    /* max-width: 335px; */
+    margin: 0px;
+}
+
+.plus-btn {
+    width: 20px;
+    height: 20px;
+}
+
+/* .get-referrals {
+    text-align: left;
+     font: normal normal bold 15px/18px Roboto; 
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+} */
+
+
+.promotional {
+    text-align: left;
+    /* font: normal normal bold 11px/13px Roboto; */
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.INCOME {
+    text-align: left;
+    /* font: normal normal bold 20px/24px Roboto; */
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.income-block {
+    /* max-width: 704px; */
+}
+
+.card-backimg {
+    border-radius: 30px !important;
+    background-image: linear-gradient(to left bottom, #1c1f37, #1c1f37, #1c1f37, #1c1f37, #263e7e, #263e7e, #a612eb);
+}
+
+.ml-12 {
+    margin-left: 12%;
+}
+
+.card3-text1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #181E48;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.foor-text {
+    color: #C751C4;
+}
+
+.box-style {
+    background: transparent linear-gradient(90deg, #706EEC 0%, #B15BFE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    width: auto;
+    height: 74px;
+}
+
+.num-29 {
+    /* font: normal normal medium 29px/35px Roboto; */
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #646784;
+    width: 66px;
+    height: 35px;
+}
+
+.total-income {
+    width: 176px;
+
+    /* font: normal normal medium 25px/30px Roboto; */
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* .total-inverts {
+    width: 40px;
+    height: 40px;
+} */
+
+.last-btn {
+    background: #1C1F37 0% 0% no-repeat padding-box;
+    border: 1px solid #10132B;
+    border-radius: 39px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.box-background {
+    background-color: #1C1F37;
+    background: #1C1F37 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    width: 100%;
+    padding: 39px 0px;
+}
+
+.box-element {
+    width: 206px;
+    height: 206px;
+}
+
+.roi {
+    color: #8069F0;
+    text-align: center;
+    /* font: normal normal bold 13px/16px Roboto; */
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+.direct {
+    color: #5E11D2;
+    text-align: center;
+    /* font: normal normal bold 13px/16px Roboto; */
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+.binary {
+    color: #B15BFE;
+    text-align: center;
+    /* font: normal normal bold 13px/16px Roboto; */
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+hr{
+    background-color: #9da0be !important;
+}
+
+.max-362{
+    max-width: 362px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.fa-bars{
+    color: white;
+    cursor: pointer;
+}
+.menu-icon{
+}
+ /* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) { 
+
+    .menu-icon{
+        align-items: center;
+        display: flex;
+    }
+    .mobile-icon-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-d-none{
+        display: none;
+    }
+    .flex-dir-column{
+        flex-direction: column;
+        min-height: 87px;
+    }
+    .robot-img-block {
+        order: -1;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .robot-img-block img{
+        left: 0% !important;
+    }
+    .mobile-footer-btn{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .ms-3 .mobile-text-start{
+        text-align: start !important;
+    }
+    .mobile-flex-flow-wrap{
+        flex-flow: wrap;
+    }
+
+    .mobile-gap{
+        gap: 8px 1px;
+    }
+
+    .mobile-server-time-gap{
+        gap: 28px;
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+
+}
+
+.offcanvas{
+    background-color: #141627 !important;
+}

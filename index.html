@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Demo Panel</title>
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class=" col-sm-3 col-md-2  side-bg">
+                    <div class="sidebar">
+                        <div class="mobile-icon-bar">
+                            <span><img src="./assets/icons/logo.png" class="demopanel my-4 ms-4"
+                                   alt=""></span>
+
+                                    <span class="menu-icon">
+                                        <i class="fa fa-bars"   data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                        aria-controls="offcanvasExample"></i>
+                                    </span>
+                        </div>
+
+
+                        <div class="offcanvas offcanvas-start side-bg" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header" style="color: black;">
+                                <span><img src="./assets/icons/logo.png" class="demopanel my-4 ms-4"
+                                    data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                    aria-controls="offcanvasExample" alt=""></span>
+
+                                <h5 class="offcanvas-title d-none" id="offcanvasExampleLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close text-reset"  data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    <ul>
+                                        <li class="active">
+                                            <div>
+                                                <span>
+                                                    <i class="fa fa-home"></i>
+                                                </span>
+                                                <span class="nav-items">Dashboard</span>
+                                            </div>
+                                            <div class="active-state">
+        
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <img src="./assets/icons/profile_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Profile</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <img src="./assets/icons/add_fund_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Add Fund</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <img src="./assets/icons/invest_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Invest</span>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1">
+                                                <div>
+                                                    <span>
+                                                        <img src="./assets/icons/transfer_menu.png" class="w-18" alt="">
+                                                    </span>
+                                                    <span class="nav-items">Transfer</span>
+                                                </div>
+                                                <div>
+                                                    <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                                </div>
+                                            </div>
+        
+                                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                                <div class=" menu-item">
+                                                    <span>menu-1</span>
+                                                    </br>
+                                                    <span>menu-2</span>
+                                                    </br>
+                                                    <span>menu-3</span>
+                                                </div>
+                                            </div>
+        
+                                        </li>
+        
+                                        <li>
+                                            <div class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample2" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1">
+        
+                                                <div>
+                                                    <span>
+                                                        <i style="font-size: 20px;font-size: 20px !important;"
+                                                            class="fa fa-group"></i>
+                                                    </span>
+                                                    <span class="nav-items">Affilate</span>
+        
+                                                </div>
+                                                <div>
+                                                    <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                                </div>
+                                            </div>
+        
+                                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                                <div class=" menu-item">
+                                                    <span>menu-1</span>
+                                                    </br>
+                                                    <span>menu-2</span>
+                                                    </br>
+                                                    <span>menu-3</span>
+                                                </div>
+                                            </div>
+        
+                                        </li>
+                                        <li>
+                                            <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample3" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1">
+                                                <div>
+                                                    <span>
+                                                        <img src="./assets/icons/earning_menu.png" class="w-18" alt="">
+                                                    </span>
+                                                    <span class="nav-items">Earnings</span>
+        
+                                                </div>
+                                                <div>
+                                                    <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                                <div class=" menu-item">
+                                                    <span>menu-1</span>
+                                                    </br>
+                                                    <span>menu-2</span>
+                                                    </br>
+                                                    <span>menu-3</span>
+                                                </div>
+                                            </div>
+        
+                                        </li>
+                                        <li>
+                                            <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample4" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1">
+                                                <div>
+                                                    <span>
+                                                        <img src="./assets/icons/withdraw_menu.png" class="w-18" alt="">
+                                                    </span>
+                                                    <span class="nav-items">Withdraw</span>
+        
+                                                </div>
+                                                <div>
+                                                    <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                                <div class=" menu-item">
+                                                    <span>menu-1</span>
+                                                    </br>
+                                                    <span>menu-2</span>
+                                                    </br>
+                                                    <span>menu-3</span>
+                                                </div>
+                                            </div>
+                                        </li>
+        
+                                        <li>
+                                            <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample5" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1">
+                                                <div>
+                                                    <span>
+                                                        <img src="./assets/icons/tickit_opton.png" class="w-18" alt="">
+                                                    </span>
+                                                    <span class="nav-items">Ticket Option</span>
+                                                </div>
+                                                <div>
+                                                    <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                                </div>
+                                            </div>
+        
+        
+                                            <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                                <div class=" menu-item">
+                                                    <span>menu-1</span>
+                                                    </br>
+                                                    <span>menu-2</span>
+                                                    </br>
+                                                    <span>menu-3</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+        
+                                    <div class="d-flex justify-content-center my-5">
+                                        <div>
+                                            <div class="cheat-support">Chat Support</div>
+                                            <div class="d-flex justify-content-center mt-2">
+                                                <span><img class="c-pointer" src="./assets/icons/whast_icon.png" alt=""></span>
+                                                &nbsp;&nbsp;
+                                                <span>
+                                                    <img class="c-pointer" src="./assets/icons/telegram_icon.png" alt="">
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="mobile-d-none">
+                            <ul>
+                                <li class="active">
+                                    <div>
+                                        <span>
+                                            <i class="fa fa-home"></i>
+                                        </span>
+                                        <span class="nav-items">Dashboard</span>
+                                    </div>
+                                    <div class="active-state">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="./assets/icons/profile_menu.png" class="w-18" alt="">
+                                    </span>
+                                    <span class="nav-items">Profile</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="./assets/icons/add_fund_menu.png" class="w-18" alt="">
+                                    </span>
+                                    <span class="nav-items">Add Fund</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="./assets/icons/invest_menu.png" class="w-18" alt="">
+                                    </span>
+                                    <span class="nav-items">Invest</span>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+                                        <div>
+                                            <span>
+                                                <img src="./assets/icons/transfer_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Transfer</span>
+                                        </div>
+                                        <div>
+                                            <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class=" menu-item">
+                                            <span>menu-1</span>
+                                            </br>
+                                            <span>menu-2</span>
+                                            </br>
+                                            <span>menu-3</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <div class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample2" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+
+                                        <div>
+                                            <span>
+                                                <i style="font-size: 20px;font-size: 20px !important;"
+                                                    class="fa fa-group"></i>
+                                            </span>
+                                            <span class="nav-items">Affilate</span>
+
+                                        </div>
+                                        <div>
+                                            <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class=" menu-item">
+                                            <span>menu-1</span>
+                                            </br>
+                                            <span>menu-2</span>
+                                            </br>
+                                            <span>menu-3</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample3" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+                                        <div>
+                                            <span>
+                                                <img src="./assets/icons/earning_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Earnings</span>
+
+                                        </div>
+                                        <div>
+                                            <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                        <div class=" menu-item">
+                                            <span>menu-1</span>
+                                            </br>
+                                            <span>menu-2</span>
+                                            </br>
+                                            <span>menu-3</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample4" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+                                        <div>
+                                            <span>
+                                                <img src="./assets/icons/withdraw_menu.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Withdraw</span>
+
+                                        </div>
+                                        <div>
+                                            <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                        <div class=" menu-item">
+                                            <span>menu-1</span>
+                                            </br>
+                                            <span>menu-2</span>
+                                            </br>
+                                            <span>menu-3</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class=" d-flex justify-content-between" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample5" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+                                        <div>
+                                            <span>
+                                                <img src="./assets/icons/tickit_opton.png" class="w-18" alt="">
+                                            </span>
+                                            <span class="nav-items">Ticket Option</span>
+                                        </div>
+                                        <div>
+                                            <img class="user-img-arrow c-pointer" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                        <div class=" menu-item">
+                                            <span>menu-1</span>
+                                            </br>
+                                            <span>menu-2</span>
+                                            </br>
+                                            <span>menu-3</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="d-flex justify-content-center my-5">
+                                <div>
+                                    <div class="cheat-support">Chat Support</div>
+                                    <div class="d-flex justify-content-center mt-2">
+                                        <span><img class="c-pointer" src="./assets/icons/whast_icon.png" alt=""></span>
+                                        &nbsp;&nbsp;
+                                        <span>
+                                            <img class="c-pointer" src="./assets/icons/telegram_icon.png" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-9 col-md-10  backimage">
+
+                    <div class="row mt-2">
+                        <marquee behavior=" " direction="">
+                            <div class="d-flex">
+                                <div class="width-fit-content me-3">
+                                    <span>
+                                        <img src="./assets/icons/Monero-XMR-icon.png" class="icon" alt="">
+                                    </span>
+                                    <span class="nav-items" class="coin-name"> Monero</span>
+                                    <span>
+                                        <small class="font-600">(XMR)</small>
+                                    </span>
+                                    <span class="font-600 me-3">$ 162.90 ↓ -6.00%</span>
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+                                <div class="width-fit-content me-3">
+                                    <span>
+                                        <img src="./assets/icons/Monero-XMR-icon.png" class="icon" alt="">
+                                    </span>
+                                    <span class="nav-items" class="coin-name"> Monero</span>
+                                    <span>
+                                        <small class="font-600">(XMR)</small>
+                                    </span>
+                                    <span class="font-600 me-3">$ 162.90 ↓ -6.00%</span>
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+
+                                <div class="width-fit-content me-3">
+                                    <span>
+                                        <img src="./assets/icons/Monero-XMR-icon.png" class="icon" alt="">
+                                    </span>
+                                    <span class="nav-items" class="coin-name"> Monero</span>
+                                    <span>
+                                        <small class="font-600">(XMR)</small>
+                                    </span>
+                                    <span class="font-600 me-3">$ 162.90 ↓ -6.00%</span>
+                                    <div class="line">
+
+                                    </div>
+
+                                </div>
+                                <div class="width-fit-content me-3">
+                                    <span>
+                                        <img src="./assets/icons/Monero-XMR-icon.png" class="icon" alt="">
+                                    </span>
+                                    <span class="nav-items" class="coin-name"> Monero</span>
+                                    <span>
+                                        <small class="font-600">(XMR)</small>
+                                    </span>
+                                    <span class="font-600 me-3">$ 162.90 ↓ -6.00%</span>
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </marquee>
+
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col px-4">
+                            <div class="d-flex justify-content-between flex-dir-column  mobile-server-time-gap">
+                                <div>
+                                    <button class="nav-btn">
+                                        <span><img src="./assets/icons/pdf_cion.svg"></span>
+                                        <span class="header-btn">Presentations</span>
+                                    </button>
+                                    <button class="nav-btn">
+                                        <span><img src="./assets/icons/pdf_cion.svg"></span>
+                                        <span class="header-btn">User Guide</span>
+                                    </button>
+                                </div>
+                                <div class="d-flex mobile-flex-flow-wrap mobile-gap">
+
+                                    <div class="ms-3">
+                                        <p class="mobile-text-start  p-text text-end server-time">Server Time</p>
+                                        <span class="date-text">Wed, Aug 10, 2022 at 1:52:23 pm UTC</span>
+                                    </div>
+
+                                    <div class="ms-3">
+                                        <div class="d-flex flag-box">
+                                            <span>
+                                                <img src="./assets/icons/flag.png" class="flag" alt="">
+                                            </span>
+                                            <div class="arrow text-center c-pointer">
+                                                <img src="./assets/icons/arrow.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ms-3">
+                                        <img src="./assets/icons/notification.svg" class="notification" alt="">
+                                    </div>
+
+                                    <div class="d-flex ms-3">
+                                        <div>
+                                            <p class="p-text text-end server-time">John Doe </p>
+                                            <span class="date-text">VG56321</span>
+                                        </div>
+                                        <div class="ms-2">
+                                            <img src="./assets/images/user.png" alt="">
+                                        </div>
+                                        <div class="align-items-center c-pointer d-flex justify-content-center">
+                                            <img class="user-img-arrow ms-2" src="./assets/icons/arrow.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 pt-5 px-4">
+                            <div class="section">
+                                <p><span class="welcome">Welcome</span>, &nbsp;<span class="john"> John</span></p>
+                            </div>
+
+                            <div class="card mb-3"
+                                style="border-radius: 30px;     background-image: linear-gradient(to right top, #1c1f37, #1c1f37,#1c1f37,#1c1f37, #263e7e, #263e7e, #a612eb);">
+
+                                <div class="row g-0 mt-5">
+                                    <div class="col d-flex flex-dir-column">
+                                        <div class="card-body">
+                                            <p class="card-text">Welcome Message is Here Welcome Message is Here Welcome
+                                                Message is Here</p>
+                                            <p class="card-text mt-4"><small class="text-muted">Your Referral Links are
+                                                    waiting.</small></p>
+                                            <p class="card-text"><small class="text-muted"> Click on the button below
+                                                    and share it with your
+                                                    people.</small></p>
+
+                                            <button class="nav-btn plu-btn mt-4 mb-2">
+                                                <span><img src="./assets/icons/plus_icon.png"></span>
+                                                <span class="header-btn get-referrals">GET REFERRALS</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="w-40 robot-img-block">
+                                            <img src="./assets/images/dd.png" class=" robot-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row income-block">
+                                <div class="d-flex flex-dir-column justify-content-between my-4 w-100">
+                                    <div class="INCOME">INCOME OVERVIEW</div>
+                                    <div>
+                                        <button class="nav-btn">
+                                            <span class="promotional">PROMOTIONAL MATERIAL</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 mt-3 card-backimg">
+                                <div class="row g-0 mt-5">
+                                    <div class="col d-flex flex-dir-column">
+
+                                        <div class="w-40 robot-img-block ">
+                                            <img src="./assets/images/hh.png" class=" robot-img">
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="max-362">
+                                                <div>
+                                                    <p class="card-text">
+                                                        <small class="text-muted">Your Referral Links are
+                                                            waiting.</small>
+                                                    </p>
+
+                                                    <p class="card-text">
+                                                        Enjoy instant withdrawals by
+                                                        clicking here!
+                                                    </p>
+
+                                                </div>
+                                                <div class="row my-4 ">
+                                                    <div class="d-flex">
+                                                        <div class="box-style text-center ">
+                                                            <div
+                                                                class="align-items-center box-style d-flex text-center">
+                                                                <div class="mx-2">
+                                                                    <span>$4587</span>
+                                                                    <br />
+                                                                    <span><small>ROI INCOME</small></span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="box-style text-center mx-2">
+                                                            <div
+                                                                class="align-items-center box-style d-flex text-center">
+                                                                <div class="mx-2">
+                                                                    <span>$4587</span>
+                                                                    <br />
+                                                                    <span><small>DIRECT INCOME</small></span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="box-style text-center ">
+                                                            <div
+                                                                class="align-items-center box-style d-flex text-center">
+                                                                <div class="mx-2">
+                                                                    <span>$4587</span>
+                                                                    <br />
+                                                                    <span><small>BINARY INCOME</small></span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="total-income">
+                                                            <span>TOTAL INCOME</span>
+                                                            <br />
+                                                            <span class="num-29">$658</span>
+                                                        </div>
+                                                        <div>
+                                                            <button class="nav-btn">
+                                                                <span class="promotional">WITHDRAW</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="align-items-end col-md-4 d-flex">
+                            <div class="w-100">
+                                <div>
+                                    <div class="d-flex justify-content-between last-btn p-4">
+                                        <div>
+                                            <span>Total Investment</span>
+                                            <br />
+                                            <span><small>$54659</small></span>
+                                        </div>
+                                        <span>
+                                            <img src="./assets/icons/roght_arrow_icon.png" class="total-inverts "
+                                                alt="">
+                                        </span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between last-btn my-2 p-4">
+                                        <div>
+                                            <span>Total Withdrawal</span>
+                                            <br />
+                                            <span><small>$658</small></span>
+                                        </div>
+                                        <span>
+                                            <img src="./assets/icons/roght_arrow_icon.png" class="c-pointer" alt="">
+                                        </span>
+
+
+                                    </div>
+
+                                    <div class="d-flex justify-content-between last-btn p-4">
+                                        <div class="w-100 me-4">
+                                            <div class="d-flex justify-content-between">
+                                                <span>Total Team Business</span>
+                                                <span class="text-muted">$1000</span>
+                                            </div>
+                                            <hr />
+                                            <div class="d-flex justify-content-between">
+                                                <span><small> Left : <span class="text-muted">$500</span>
+                                                    </small></span>
+                                                <span><small>Right :<span class="text-muted">$500</span></small></span>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <img src="./assets/icons/roght_arrow_icon.png" class="c-pointer" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 mb-3">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="box-background">
+                                            <div class="text-center">
+                                                <img src="./assets/images/Element circle.svg" class="c-pointer"
+                                                    class="box-element my-4" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center text-center mt-4">
+                                                <div>
+                                                    <span class="roi">ROI</span>
+                                                    <br />
+                                                    <span class="font-600">$4587</span>
+                                                </div>
+                                                <div class="mx-3">
+                                                    <span class="direct">DIRECT</span>
+                                                    <br />
+                                                    <span class="font-600">$471</span>
+                                                </div>
+                                                <div>
+                                                    <span class="binary">BINARY</span>
+                                                    <br />
+                                                    <span class="font-600">27%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="footer">
+            <div class="row">
+                <div class="d-flex flex-dir-column footer justify-content-between">
+                    <div class="  mx-2 text-center">
+                        Copyright © 2022
+                        <span class="foor-text">The Ventures Growth </span>
+                        all rights reserved
+                    </div>
+
+                    <div class="d-flex flex-dir-column">
+                        <div class="me-3 mobile-footer-btn">
+                            <button class="nav-btn">
+                                <span class="header-btn">User Guide</span>
+                                <span><img src="./assets/icons/pdf_cion.svg"></span>
+                            </button>
+                            <button class="nav-btn">
+                                <span class="header-btn">Business Plan</span>
+                                <span><img src="./assets/icons/pdf_cion.svg"></span>
+                            </button>
+                        </div>
+                        <div class="align-items-center d-flex  mobile-footer-btn">
+                            <span class="me-1">
+                                <img src="./assets/icons/footer_whats_app.png" alt="">
+                            </span>
+                            <span class="me-1">
+                                <img src="./assets/icons/footer_telegram.png" alt="">
+                            </span>
+                            <span class="me-1">
+                                <img src="./assets/icons/footer_facebook.png" alt="">
+                            </span>
+                            <span class="me-1">
+                                <img src="./assets/icons/footer_twiterr.png" alt="">
+                            </span>
+                            <span class="me-1">
+                                <img src="./assets/icons/footer_youtube.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

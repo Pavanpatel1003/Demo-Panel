@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205.787" height="205.787" viewBox="0 0 205.787 205.787">
+  <g id="Element_circle" data-name="Element circle" transform="translate(-10.706 -10.24)">
+    <ellipse id="Ellipse_87" data-name="Ellipse 87" cx="102.894" cy="102.894" rx="102.894" ry="102.894" transform="translate(10.706 10.24)" fill="#8069f0"/>
+    <path id="Path_285" data-name="Path 285" d="M270.914,559.184l93.474,43.01a102.894,102.894,0,0,1-179.066,14.094Z" transform="translate(-157.316 -446.05)" fill="#5e11d2"/>
+    <path id="Path_286" data-name="Path 286" d="M262.787,565.966l74.065-71.425a102.892,102.892,0,0,1,19.255,114.767Z" transform="translate(-149.188 -452.832)" fill="#b15bfe"/>
+    <ellipse id="Ellipse_88" data-name="Ellipse 88" cx="67.992" cy="67.992" rx="67.992" ry="67.992" transform="translate(45.607 45.142)" fill="#2b2b4c" opacity="0.15" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <ellipse id="Ellipse_89" data-name="Ellipse 89" cx="56.904" cy="56.904" rx="56.904" ry="56.904" transform="translate(56.695 56.23)" fill="#1c1f37"/>
+  </g>
+</svg>
